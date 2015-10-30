@@ -54,18 +54,15 @@ a {
 }
 
 #container {
-    width: 1000px;
+    max-width: 1200px;
     margin: 0px auto;
+
 }
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -73,15 +70,12 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
 }
 
-#logo h1, #logo p {
-}
 
 #logo h1 {
     line-height: 120px;
@@ -117,7 +111,7 @@ a {
 /* Splash */
 
 #splash {
-    width: 960px;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -125,7 +119,7 @@ a {
 
 #search {
     float: right;
-    width: 280px;
+    width: 100%;
     padding: 20px 0px 0px 0px;
 }
 
@@ -141,7 +135,7 @@ a {
 }
 
 #search-text {
-    width: 170px;
+    width: 100%;
     padding: 6px 5px 2px 5px;
     border: 1px solid #E7EBED;
     background: #FFFFFF;
@@ -151,7 +145,7 @@ a {
 }
 
 #search-submit {
-    width: 50px;
+    width: 100%;
     border: none;
     background: #B9B9B9;
     color: #000000;
@@ -161,7 +155,7 @@ a {
 
 #menu {
     float: right;
-    width: 500px;
+    width:100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -206,7 +200,7 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 0px;
 }
@@ -215,7 +209,7 @@ a {
 
 #content {
     float: right;
-    width: 660px;
+    width: 100%;
     padding: 0px 0px 0px 0px;
 }
 
@@ -281,7 +275,7 @@ a {
 .comments {
     display: block;
     float: left;
-    width: 88px;
+    width:100%;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
@@ -293,7 +287,7 @@ a {
 
 #sidebar {
     float: left;
-    width: 270px;
+    width: 100%;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
@@ -358,8 +352,7 @@ a {
 /* Three Column Footer Content */
 
 #footer-content {
-    overflow: hidden;
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
     color: #D6E2F0;
 }
@@ -369,7 +362,6 @@ a {
 }
 
 #footer-bg {
-    overflow: hidden;
     padding: 30px 0px;
     background: #E8E8E8;
 }
@@ -385,18 +377,18 @@ a {
 
 #footer-content #fbox1 {
     float: left;
-    width: 300px;
+    width: 100%;
     margin-right: 50px;
 }
 
 #footer-content #fbox2 {
     float: left;
-    width: 300px;
+    width: 100%;
 }
 
 #footer-content #fbox3 {
     float: right;
-    width: 300px;
+    width: 100%;
 }
 
 #footer-content a {
@@ -404,18 +396,18 @@ a {
 
 #column1 {
     float: left;
-    width: 290px;
+    width: 100%;
     margin-right: 30px;
 }
 
 #column2 {
     float: left;
-    width: 280px;
+    width: 100%;
 }
 
 #column3 {
     float: right;
-    width: 260px;
+    width: 100%;
 }
 
 /* Footer */
@@ -465,7 +457,7 @@ a {
 
 #marketing .text2 a {
     display: block;
-    width: 252px;
+    width: 100%;
     padding: 15px 0px 0px 0px;
     background: url(../img/img07.jpg) no-repeat left top;
     letter-spacing: -2px;
