@@ -72,7 +72,6 @@ a:hover {
 
 #header {
     width: 1000px;
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -125,7 +124,6 @@ a:hover {
 
 #splash {
     width: 960px;
-    height: 300px;
     margin: 0px auto;
 }
 
@@ -134,12 +132,10 @@ a:hover {
 #search {
     float: right;
     width: 280px;
-    height: 60px;
     padding: 20px 0px 0px 0px;
 }
 
 #search form {
-    height: 41px;
     margin: 0;
     padding: 10px 0 0 20px;
 }
@@ -162,7 +158,6 @@ a:hover {
 
 #search-submit {
     width: 50px;
-    height: 22px;
     border: none;
     background: #B9B9B9;
     color: #000000;
@@ -173,7 +168,6 @@ a:hover {
 #menu {
     float: right;
     width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
@@ -347,7 +341,6 @@ a:hover {
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
@@ -455,7 +448,6 @@ a:hover {
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
@@ -501,7 +493,6 @@ a:hover {
 #marketing .text2 a {
     display: block;
     width: 252px;
-    height: 38px;
     padding: 15px 0px 0px 0px;
     background: url(../img/img07.jpg) no-repeat left top;
     letter-spacing: -2px;
@@ -514,7 +505,6 @@ a:hover {
 #banner {
     margin: 0px auto;
     width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
