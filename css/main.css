@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,19 +40,13 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p, ul {
     margin-top: 0;
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -361,27 +355,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
 /* Three Column Footer Content */
 
 #footer-content {
@@ -504,7 +477,8 @@ a:hover {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
+    width: 100%;
+    height: auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
