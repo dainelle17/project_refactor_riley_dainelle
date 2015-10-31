@@ -53,9 +53,8 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-#container {
+.site-container {
     max-width: 1200px;
-    margin: 0px auto;
 
 }
 
@@ -70,11 +69,9 @@ a {
 /* Logo */
 
 #logo {
-    width: 100%;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-    clear: both;
 }
 
 
@@ -136,6 +133,7 @@ a {
 #menu a {
     display: block;
     line-height: 50px;
+    margin-right: 3px;
     margin-bottom: 10px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -161,8 +159,8 @@ a {
     }
 }
 
-@media all and (min-width: 1000px) {
-    #menu {
+@media all and (min-width: 900px) {
+    #menu li {
         width: calc(100% / 3);
     }
 }
@@ -176,9 +174,19 @@ a {
 
 /* Content */
 
+#content {
+    padding: 0px 0px 20px 0px;
+}
 
+@media (min-width: 900px) {
+    #content {
+        margin-left: 1em;
+        width: calc (100% / 3*2)
 
+    }
+}
 .post {
+    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
