@@ -115,41 +115,7 @@ a {
     margin: 0px auto;
 }
 
-/* Search */
 
-#search {
-    float: right;
-    width: 100%;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 100%;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 100%;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
 
 /* Menu */
 
@@ -187,9 +153,18 @@ a {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
+@media all and (min-width: 800px) {
+    #menu li {
+        display: inline-block;
+        width: 100%;
+    }
 }
 
+@media all and (min-width: 1000px) {
+    #menu {
+        width: calc(100% / 3);
+    }
+}
 /* Page */
 
 #page {
@@ -201,13 +176,11 @@ a {
 /* Content */
 
 #content {
-    float: right;
     width: 100%;
     padding: 0px 0px 0px 0px;
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
@@ -232,9 +205,7 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
+
 
 .post .meta .posted {
     float: right;
