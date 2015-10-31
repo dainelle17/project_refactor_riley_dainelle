@@ -1,7 +1,7 @@
 URL:
-[*repo*] (#https://github.com/dainelle17/project_refactor_riley_dainelle)
+https://github.com/dainelle17/project_refactor_riley_dainelle
 
-[*web host*] (#http://thedaydreamerdesigns.com)
+http://thedaydreamerdesigns.com
 
 Resources:
 -
